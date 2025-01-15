@@ -137,6 +137,9 @@ def art():
     art = Figlet(font='banner3-D')
     print(art.renderText(textart))
     
+def keluar():
+    sys.exit(0)
+    
 ganyu = """  
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠒⠒⣀⡒⠒⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠒⣉⡴⠶⠛⠋⠉⠙⠻⣦⠑⡄⠀⠀⠀⠀⠀⠀⢀⡠⠤⠐⠒⠒⠒⠀⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -319,7 +322,7 @@ def putarkan ():
             print(ganyu)
             print("Exiting...")
             print("Babay...")
-            sys.exit(0)
+            keluar()
         elif ceemde == "art":
             art()
         elif ceemde == "janken":
@@ -339,9 +342,9 @@ if __name__ == "__main__":
         print("\nExiting...")
         print("Babay...")
         print(ganyu)
-        sys.exit(0)
+        keluar()
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         print("Exiting...")
         print("Babay...")
-        sys.exit(1)
+        keluar()
