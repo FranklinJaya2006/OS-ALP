@@ -9,14 +9,19 @@
 
 ## CheatSheet for the Basic CLI Program :
 # Basic Commands
-- **ls**: Menampilkan daftar file dan folder di direktori saat ini.
-- **pwd**: Menampilkan direktori kerja saat ini.
-- **cd**: Mengubah direktori kerja.
-- **mkdir**: Membuat direktori baru.
-- **rmdir**: Menghapus direktori (jika kosong).
-- **touch**: Membuat file kosong baru.
-- **rm**: Menghapus file.
-- **cp**: Menyalin file dari satu lokasi ke lokasi lain.
-- **mv**: Memindahkan atau mengganti nama file/direktori.
+- **ls**: To give list file and folder in directory.
+- **pwd**: To display current directory.
+- **cd**: Move from one directory another directory.
+- **mkdir**: Make another folder in the directory.
+- **rmdir**: Delete directory(if empty).
+- **touch**: Make a new file.
+- **rm**: Delete file in the directory.
+- **cp**: Copy file or directory.
+- **mv**: Replace or rename file/directory.
+
+# Utility Commands
+- **help**: To display Commands in this commands.
+- **clear**: Clear terminal.
+- **exit**: Exit from the CLI.
 
 
