@@ -24,4 +24,9 @@
 - **clear**: Clear terminal.
 - **exit**: Exit from the CLI.
 
+# Extra Commands
+- **art**: Make ASCII Text with pyfiglet module.
+- **janken**: Game Rock Paper Scissors.
+- **jokes**: Display jokes for user using pyjokes module.
+
 
