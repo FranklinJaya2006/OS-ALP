@@ -28,5 +28,6 @@
 - **art**: Make ASCII Text with pyfiglet module.
 - **janken**: Game Rock Paper Scissors.
 - **jokes**: Display jokes for user using pyjokes module.
+- **frieren**: Display Frieren ASCII
 
 
